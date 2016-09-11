@@ -12,7 +12,7 @@ If you just want the plugin, download .\BrightConvolver.dll
 
 Built with Visual Studio 2013
 Based on the IPlugExamples that come with wdl-ol: https://github.com/olilarkin/wdl-ol/tree/master/IPlugExamples
-wdl Licence can be found in readme-wdl.txt
+wdl license can be found in readme-wdl.txt
 
 Uses the ooura FFT package: http://www.kurims.kyoto-u.ac.jp/~ooura/fft.html
 ooura FFT license can be found in readme-fft.txt
