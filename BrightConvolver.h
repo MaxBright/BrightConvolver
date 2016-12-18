@@ -41,10 +41,12 @@ private:
 	//What we multiply the convolution result by.
 	// Must be very low because the convolution produces a high volume signal
 	double convGain;
-	std::vector<double> previousOverlap[2];
-	std::queue<double> inputQueue1[2];
-	std::queue<double> inputQueue2[2];
-	std::queue<double> outputQueue[2];
+    // Number of channels to utilize
+    static const int CHANNEL_COUNT = 2;
+	std::vector<double> previousOverlap[CHANNEL_COUNT];
+	std::queue<double> inputQueue1[CHANNEL_COUNT];
+	std::queue<double> inputQueue2[CHANNEL_COUNT];
+	std::queue<double> outputQueue[CHANNEL_COUNT];
 	//void CreatePresets();
 };
 
