@@ -14,10 +14,8 @@ sent to channels 1 & 2.
 - Uses the [Ooura FFT package](http://www.kurims.kyoto-u.ac.jp/~ooura/fft.html)
 
 ### Build Instructions:
-1. Follow steps from [this link](http://www.martin-finke.de/blog/articles/audio-plugins-002-setting-up-wdl-ol/) 
+Follow steps from [this link](http://www.martin-finke.de/blog/articles/audio-plugins-002-setting-up-wdl-ol/) 
 under the section "Setup on Windows using Visual C++ 2010 Express".
-2. Setup Reaper.
-3. Rest of these instructions will be filled in at a later date.
 
 
 -------------------------------------------------------------------------------
